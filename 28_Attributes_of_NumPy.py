@@ -15,6 +15,26 @@ arrayone = nd.array(listone)
 arraytwo = nd.array(listtwo)
 arraythree = nd.array(listthree)
 
+print(arrayone)
+print(arraytwo)
+print(arraythree)
+
 print(arrayone.ndim)
 print(arraytwo.ndim)
 print(arraythree.ndim)
+
+print(arrayone.shape)
+print(arraytwo.shape)
+print(arraythree.shape)
+
+print(arrayone.size)
+print(arraytwo.size)
+print(arraythree.size)
+
+print(arrayone.dtype)
+print(arraytwo.dtype)
+print(arraythree.dtype)
+
+print(arrayone.itemsize)
+print(arraytwo.itemsize)
+print(arraythree.itemsize)
